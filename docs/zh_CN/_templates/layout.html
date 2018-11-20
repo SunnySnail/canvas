@@ -1,0 +1,31 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    {% include 'google_analytics.html' %}
+    {{ super() }}
+{% endblock extrahead %}
+
+{% block document %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <div style="display: none">
+        <img src="{{ pathto('_static/' ~ theme_logo, 1) }}" />
+    </div>
+
+    {{ super() }}
+{% endblock %}
+
+{% block footer %}
+    {{ super()  }}
+
+    {% include 'baidu_tongji.html' %}
+    {% include 'baidu_ziyuan.html' %}
+    {% include 'disqus.html' %}
+{% endblock %}
+
+{#
+    {% include 'livere.html' %}
+    {% include 'busuanzi.html' %}
+#}
