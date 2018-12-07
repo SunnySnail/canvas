@@ -1,11 +1,11 @@
 .. iDocs文档框架
     FileName:   index.rst
-    Author:     Fasion Chan
+    Author:     Huang Xiaoyan
     Created:    2018-03-03 11:45:04
     @contact:   fasionchan@gmail.com
     @version:   $Id$
 
-     Description:
+    Description:
 
     Changelog:
 
@@ -19,14 +19,13 @@
     :keywords: Canvas, Canvas API, Canvas应用
 
 =============
-Canvas
+Canvas简介
 =============
 
 .. toctree::
    :maxdepth: 3
 
-    关于 <about/index>
-    Canvas简介 <guide/index>
+    什么是Canvas <intro>
 
 
 
